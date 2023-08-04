@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "eval-foxglove"
+version = "0.1.0"
+description = ""
+authors = ["Marat Kopytjuk <kopytjuk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "eval_foxglove"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+mcap = "^1.1.0"
+pandas = "*"
+pytransform3d = "*"
+geojson = "^3.0.1"
+ipykernel = "^6.25.0"
+foxglove-schemas-protobuf = "*"
+plotly-express = "^0.4.1"
+matplotlib = "^3.7.2"
+geopandas = "^0.13.2"
+mcap-protobuf-support = "^0.4.0"
+shapely = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
